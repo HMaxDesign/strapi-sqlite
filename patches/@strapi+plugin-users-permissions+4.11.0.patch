@@ -11,7 +11,7 @@ index 31c612c..06b9cf5 100644
 +    icon: 'maxedoro',
 +    key: '',
 +    secret: '',
-+    callback: `${baseURL}/github/callback`,
++    callback: `${baseURL}/maxedoro/callback`,
 +    scope: ['profile', 'email'],
 +  },
    microsoft: {

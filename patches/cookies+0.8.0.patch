@@ -1,0 +1,13 @@
+diff --git a/node_modules/cookies/index.js b/node_modules/cookies/index.js
+index 3dd6728..e604c91 100644
+--- a/node_modules/cookies/index.js
++++ b/node_modules/cookies/index.js
+@@ -91,7 +91,7 @@ Cookies.prototype.set = function(name, value, opts) {
+   if (typeof headers == "string") headers = [headers]
+ 
+   if (!secure && opts && opts.secure) {
+-    throw new Error('Cannot send secure cookie over unencrypted connection')
++    throw new Error(`Cannot send secure cookie over unencrypted connection ${req.url}`)
+   }
+ 
+   cookie.secure = opts && opts.secure !== undefined

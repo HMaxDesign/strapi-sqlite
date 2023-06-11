@@ -1,5 +1,5 @@
 diff --git a/node_modules/grant/config/oauth.json b/node_modules/grant/config/oauth.json
-index 7d293d4..60cac32 100644
+index 7d293d4..df151d9 100644
 --- a/node_modules/grant/config/oauth.json
 +++ b/node_modules/grant/config/oauth.json
 @@ -605,6 +605,12 @@

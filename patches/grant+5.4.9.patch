@@ -1,0 +1,31 @@
+diff --git a/node_modules/grant/config/oauth.json b/node_modules/grant/config/oauth.json
+index 7d293d4..60cac32 100644
+--- a/node_modules/grant/config/oauth.json
++++ b/node_modules/grant/config/oauth.json
+@@ -605,6 +605,12 @@
+     "oauth": 2,
+     "scope_delimiter": " "
+   },
++  "maxedoro": {
++    "authorize_url": "https://connect.maxedoro.com/oidc/oauth",
++    "access_url": "https://connect.maxedoro.com/oidc/token",
++    "oauth": 2,
++    "scope_delimiter": " "
++  },
+   "medium": {
+     "authorize_url": "https://medium.com/m/oauth/authorize",
+     "access_url": "https://api.medium.com/v1/tokens",
+diff --git a/node_modules/grant/config/profile.json b/node_modules/grant/config/profile.json
+index 91d9378..5f64d29 100644
+--- a/node_modules/grant/config/profile.json
++++ b/node_modules/grant/config/profile.json
+@@ -323,6 +323,9 @@
+   "mastodon": {
+     "profile_url": ""
+   },
++  "maxedoro": {
++    "profile_url": "https://connect.maxedoro.com/oidc/me"
++  },
+   "medium": {
+     "profile_url": ""
+   },

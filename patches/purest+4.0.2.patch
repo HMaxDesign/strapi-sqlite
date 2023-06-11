@@ -1,0 +1,25 @@
+diff --git a/node_modules/purest/config/providers.json b/node_modules/purest/config/providers.json
+index 8dd1dae..58cde1f 100644
+--- a/node_modules/purest/config/providers.json
++++ b/node_modules/purest/config/providers.json
+@@ -1538,6 +1538,20 @@
+       "path": "oauth/{path}"
+     }
+   },
++  "maxedoro": {
++    "default": {
++      "origin": "",
++      "path": "",
++      "version": "",
++      "headers": {
++        "authorization": "Bearer {auth}"
++      }
++    },
++    "oauth": {
++      "origin": "https://connect.maxedoro.com",
++      "path": "oidc/{path}"
++    }
++  },
+   "medium": {
+     "default": {
+       "origin": "",

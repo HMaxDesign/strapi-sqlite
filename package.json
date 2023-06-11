@@ -7,13 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "patch-package"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/strapi": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/plugin-i18n": "^4.11.0",
+    "@strapi/plugin-users-permissions": "^4.11.0",
+    "@strapi/strapi": "^4.11.0",
+    "patch-package": "^7.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "sqlite3": "^5.0.2"
   },
   "author": {

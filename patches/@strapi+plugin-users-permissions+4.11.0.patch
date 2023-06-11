@@ -12,7 +12,7 @@ index 31c612c..06b9cf5 100644
 +    key: '',
 +    secret: '',
 +    callback: `${baseURL}/maxedoro/callback`,
-+    scope: ['profile', 'email'],
++    scope: ['openid', 'profile', 'email'],
 +  },
    microsoft: {
      enabled: false,

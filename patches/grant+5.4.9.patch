@@ -7,7 +7,7 @@ index 7d293d4..60cac32 100644
      "scope_delimiter": " "
    },
 +  "maxedoro": {
-+    "authorize_url": "https://connect.maxedoro.com/oidc/oauth",
++    "authorize_url": "https://connect.maxedoro.com/oidc/auth",
 +    "access_url": "https://connect.maxedoro.com/oidc/token",
 +    "oauth": 2,
 +    "scope_delimiter": " "

@@ -1,5 +1,5 @@
 diff --git a/node_modules/@strapi/plugin-users-permissions/server/bootstrap/grant-config.js b/node_modules/@strapi/plugin-users-permissions/server/bootstrap/grant-config.js
-index 31c612c..0cf449c 100644
+index 31c612c..16ce907 100644
 --- a/node_modules/@strapi/plugin-users-permissions/server/bootstrap/grant-config.js
 +++ b/node_modules/@strapi/plugin-users-permissions/server/bootstrap/grant-config.js
 @@ -37,6 +37,14 @@ module.exports = (baseURL) => ({
@@ -12,7 +12,7 @@ index 31c612c..0cf449c 100644
 +    key: '',
 +    secret: '',
 +    callback: `${baseURL}/maxedoro/callback`,
-+    scope: ['openid', 'profile', 'email'],
++    scope: ['email', 'openid', 'profile'],
 +  },
    microsoft: {
      enabled: false,
